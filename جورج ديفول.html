@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموقع الشخصي</title>
+    <style>
+        /* تنسيق الصفحة */
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.pexels.com/photo/blurry-image-of-a-brownish-background-1242348/'); /* خلفية الصورة */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+        }
+
+        /* الهيدر */
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* خلفية شفافة */
+            color: #fff;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffcc00;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
+        /* الأقسام */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: rgba(0, 0, 0, 0.6); /* خلفية شفافة */
+            border-radius: 10px;
+            width: 80%;
+        }
+
+        section h2 {
+            color: #ffcc00;
+        }
+
+        section p, ul {
+            text-align: justify;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        /* الصور */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        /* الفوتر */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>جورج ديفول</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">من أنا</a></li>
+                <li><a href="#work"></a></li>
+                <li><a href="#contact">اتصل بي</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>من أنا</h2>
+        <img src="nn.jpeg" width="200px"height="300" alt="الصورة الشخصية">
+        <p>جورج ديفول، مخترع أمريكي، يُعتبر رائد الروبوتات الصناعية. في عام 1954، اخترع أول روبوت صناعي قابل للبرمجة، أطلق عليه اسم “Unimate”. هذا الابتكار أحدث ثورة في الصناعة</p>
+    </section>
+
+    <section id="work">
+        <h2>مواصفات</h2>
+        <img src="mm.jpeg" width="200px"height="300"alt="صورة المشاريع">
+        <ul>
+            <li>اسم اول روبورت - Unimate </li>
+            <li>يمتلك  ست درجات الحرية اي ست مفاصل للحركة</li>
+            <li>تخزن الاوامر الرقمية  </li>
+<li>اول روبوت يعمل كعنصر مساعد </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>اتصل بي</h2>
+        <form action="https://example.com/submit" method="POST">
+            <label for="name">الاسم:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">رسالتك:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 مقطع موجز جميع الحقوق محفوظة. | <a href="https://m.youtube.com/watch?v=JxOspYoCzhY">للمشاهدة</a></p>
+    </footer>
+</body>
+</html>
